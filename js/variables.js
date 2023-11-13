@@ -59,8 +59,9 @@ let fiveYearCost = costPerCup * fiveYears;
 
 // Exercise 6 - you'll need another CONST
 
+const oneYearCostInflation = (costPerCup + 10) * oneYear;
 let fiveYearCostInflation;
-
+fiveYearCostInflation = (oneYearCost * 2) + (oneYearCostInflation * 3);
 
 // Excercise 7
 /* 
