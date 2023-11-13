@@ -43,21 +43,24 @@ stringFirst = firstName + birthYear + FUTURE_YEAR;
 // Exercise 4 - you'll need to add a const and initialise these variables
 // From now on add the initialisation on the same line as the declaration of variables
 
-let fiveDays;
-let thirtyDays;
-let oneYear;
-let fiveYears;
+const cupsADay = 3;
+let fiveDays = cupsADay * 5;
+let thirtyDays = cupsADay * 30;
+let oneYear = cupsADay * 365;
+let fiveYears = oneYear * 5;
 
 // Exercise 5 - you'll need another const
 
-let fiveDaysCost; 
-let thirtyDaysCost;
-let oneYearCost;
-let fiveYearCost;
+const costPerCup = 42;
+let fiveDaysCost = costPerCup * fiveDays; 
+let thirtyDaysCost = costPerCup * thirtyDays;
+let oneYearCost = costPerCup * oneYear;
+let fiveYearCost = costPerCup * fiveYears;
 
 // Exercise 6 - you'll need another CONST
 
 let fiveYearCostInflation;
+
 
 // Excercise 7
 /* 
