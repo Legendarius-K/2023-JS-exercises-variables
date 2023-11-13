@@ -71,6 +71,10 @@ Edit the html file to add what you need, then write JS below to target that elem
 
 // write your code here :
 
+let cupsBy1945 = oneYear * 22;
+
+document.querySelector(".exercise-7").textContent = "By this date in 2045 I've had " + cupsBy1945 + " cups of coffee.";
+
 
 
 // Exercise 8
@@ -80,7 +84,8 @@ No help on this one. Write the html element you need in the html file and the JS
 
 // write your code here :
 
-
+let costBy1945 = (oneYearCost * 2) + (oneYearCostInflation * 20);
+document.querySelector("#total-cost").textContent = "The cost after 22 years will be " + costBy1945 + " swedish krona."; 
 
 /* *********************************************************************************** */
 /* DO NOT TOUCH ANYTHING BELOW HERE */
