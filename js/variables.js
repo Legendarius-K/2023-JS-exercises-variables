@@ -1,16 +1,18 @@
 // Exercise 1 - initialise these variables
 
 const FUTURE_YEAR = 2045; // don't change this
-let firstName;
+let firstName; 
 let birthYear;
 
 // write your code here :
-
+firstName = "Darius Kaya";
+birthYear = 1988;
 
 // Work out your age in 2045.
 let futureAge;
 // write your code here :
-
+futureAge = 2045 - birthYear;
+console.log(futureAge);
 
 // Exercise 2 - initalise these variables to show their type
 
@@ -22,6 +24,10 @@ let firstNameBirthYearType;
 
 // write your code here :
 
+firstNameType = "string"
+birthYearType = "number"
+futureAgeType = "number"
+firstNameBirthYearType = "string"
 
 
 // Exercise 3
@@ -31,8 +37,8 @@ let stringFirst;
 
 // write your code here :
 
-numbersFirst;
-stringFirst;
+numbersFirst = birthYear + FUTURE_YEAR + firstName;
+stringFirst = firstName + birthYear + FUTURE_YEAR; 
 
 // Exercise 4 - you'll need to add a const and initialise these variables
 // From now on add the initialisation on the same line as the declaration of variables
